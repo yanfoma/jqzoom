@@ -18,9 +18,13 @@
  *
  * Date: 11 April 2011 22:16:00
  */
+ /*
+ * Compatibility with Jquery 3.2.1 added
+ * Date: 09 November 2017 
+ */
 (function ($) {
     //GLOBAL VARIABLES
-    var isIE6 = ($.browser.msie && $.browser.version < 7);
+    var isIE6 = (bowser.msie && bowser.version < 7);
     var body = $(document.body);
     var window = $(window);
     var jqzoompluging_disabled = false; //disabilita globalmente il plugin
